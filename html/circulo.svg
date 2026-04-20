@@ -1,0 +1,36 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+<line x1="120" y1="40" x2="75" y2="40"
+      stroke="black" stroke-width="3" />
+    <circle stroke="red" r="20" cx="130" cy="100" fill="green">
+    <animateTransform
+      attributeName="transform"
+      begin="0s"
+      dur="1s"
+      type="rotate"
+      from="360 100 100"
+      to="0 100 100"
+      repeatCount="indefinite" />
+    </circle>
+    <circle stroke="red" r="10" cx="130" cy="100" fill="white">
+    <animateTransform
+      attributeName="transform"
+      begin="0s"
+      dur="1s"
+      type="rotate"
+      from="0 100 100"
+      to="360 100 100"
+      repeatCount="indefinite" />
+    </circle>
+    <circle stroke="red" r="5" cx="130" cy="100" fill="black">
+    <animateTransform
+      attributeName="transform"
+      begin="0s"
+      dur="1s"
+      type="rotate"
+      from="0 100 100"
+      to="360 100 100"
+      repeatCount="indefinite" />
+    </circle>
+
+</svg>
