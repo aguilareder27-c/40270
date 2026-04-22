@@ -1,0 +1,6 @@
+<!ELEMENT vaca (muu | muh)*>
+
+<!ELEMENT muu (#PCDATA)>
+
+<!ELEMENT muh (muu)>
+<!ATTLIST muh muuu CDATA #REQUIRED>

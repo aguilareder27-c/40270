@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vaca SYSTEM "gramatica.dtd">
+
+<vaca>
+    <muu>muuuu</muu>
+
+    <muh muuu="3">
+        <muu>muu muu</muu>
+    </muh>
+</vaca>

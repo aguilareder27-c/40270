@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumno [
+  <!ELEMENT alumno (nombre, nacimiento)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT nacimiento (#PCDATA)>
+]>
+
+<alumno>
+  <nombre>Luis Eder</nombre>
+  <nacimiento>2004-02-27</nacimiento>
+</alumno>
